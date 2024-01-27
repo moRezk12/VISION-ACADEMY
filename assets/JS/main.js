@@ -1,11 +1,8 @@
 let open = document.querySelector("#open");
 let close = document.querySelector("#close");
+let closes = document.querySelector("#closes");
 let show = document.querySelector(".show-ul");
 
-let deposit = document.querySelector(".deposit");
-let withdraw = document.querySelector(".withdraw");
-let active = document.querySelector(".active");
-let hide = document.querySelector(".hide");
 
 
 open.addEventListener("click" , () =>{
@@ -18,30 +15,15 @@ close.addEventListener("click" , () =>{
     open.style.display = 'block'; 
     show.style.display = 'none'; 
 })
-
-
-deposit.addEventListener("click" , () =>{
-    hide.style.display = 'none'; 
-    active.style.display = 'block';
-
-    deposit.style.background =  "00bfff" ;
-    deposit.style.color =  "#fff" ;
-    
-    withdraw.style.color =  "#fff" ;
-    withdraw.style.background =  "#26354d" ;
-
+closes.addEventListener("click" , () =>{
+    closes.style.display = 'none'; 
+    open.style.display = 'block'; 
+    close.style.display = 'none'; 
+    show.style.display = 'none'; 
 })
-withdraw.addEventListener("click" , () =>{
-    hide.style.display = 'block'; 
-    active.style.display = 'none';
 
-    withdraw.style.background =  "00bfff" ;
-    withdraw.style.color =  "#fff" ;
 
-    deposit.style.color =  "#fff" ;
-    deposit.style.background =  "#26354d" ;
 
-})
 
 // Scroll
 let btn = document.querySelector('#btn-scroll');
@@ -68,18 +50,21 @@ btn.onclick = function (){
 // change navbar
 
 function changebg(){
-    // let container = document.querySelector('.navbar-bottom .container');
     let navbartop = document.querySelector('.navbar-top');
     let navbar = document.querySelector('.navbar-bottom');
+    let navbarbottom = document.querySelector('.navbar-bottom .container');
+
     let scrollvalue = window.scrollY ;
     if(scrollvalue < 400){
-        // container.style.display = 'block';
+
+        navbarbottom.classList.remove('bgcontainer');
         navbartop.classList.remove('none');
         navbar.classList.remove('bgcolor');
     } else{
         navbar.classList.add('bgcolor');
         navbartop.classList.add('none');
-        // container.style.display = 'none';
+        navbarbottom.classList.add('bgcontainer');
+
     }
 }
 
