@@ -1704,6 +1704,10 @@ footer .row  h4:hover{
     border-radius: 10px;
     color: #fff;
 }
+.contact-input .inputs input:focus,
+.contact-input .inputs textarea:focus{
+    border-color:#00bfff ;
+}
 @media (max-width: 1090px){
     .contact .row .contact-map{
         width: 35%;
