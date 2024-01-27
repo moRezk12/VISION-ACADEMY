@@ -90,7 +90,7 @@ header .navbar-bottom h2 {
 }
 header .navbar-bottom .container{
     padding: 25px;
-    background-color: rgba(0,0,0,0.2);
+    background-color: #00000033;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -203,6 +203,9 @@ header .navbar-bottom li .btn_start:hover{
     header .container .admin,
     header .container .icon{
         padding: 15px;
+    }
+    .show-ul{
+        width: 60%;
     }
 
 }

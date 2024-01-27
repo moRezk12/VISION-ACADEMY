@@ -15,8 +15,7 @@ close.addEventListener("click" , () =>{
     open.style.display = 'block'; 
     show.style.display = 'none'; 
 })
-closes.addEventListener("click" , () =>{
-    closes.style.display = 'none'; 
+closes.addEventListener("click" , () =>{        
     open.style.display = 'block'; 
     close.style.display = 'none'; 
     show.style.display = 'none'; 
@@ -57,13 +56,15 @@ function changebg(){
     let scrollvalue = window.scrollY ;
     if(scrollvalue < 400){
 
-        navbarbottom.classList.remove('bgcontainer');
+        // navbarbottom.classList.remove('bgcontainer');
+        navbarbottom.style.background = '#00000033';
         navbartop.classList.remove('none');
         navbar.classList.remove('bgcolor');
     } else{
         navbar.classList.add('bgcolor');
         navbartop.classList.add('none');
-        navbarbottom.classList.add('bgcontainer');
+        navbarbottom.style.background = '#001e33';
+        // navbarbottom.classList.add('bgcontainer');
 
     }
 }
