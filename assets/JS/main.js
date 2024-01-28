@@ -54,7 +54,7 @@ function changebg(){
     let navbarbottom = document.querySelector('.navbar-bottom .container');
 
     let scrollvalue = window.scrollY ;
-    if(scrollvalue < 400){
+    if(scrollvalue < 200){
 
         // navbarbottom.classList.remove('bgcontainer');
         navbarbottom.style.background = '#00000033';
