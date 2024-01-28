@@ -103,7 +103,7 @@ header .navbar-bottom h2 {
     height: 73px;
 }
 header .navbar-bottom .container{
-    padding: 0px 2px;
+    padding-right: 20px;
     background-color: #00000033;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -134,7 +134,7 @@ header .navbar-bottom nav{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 80%;
+        width: 82%;
     }
     .logo{
         width: 20%;
@@ -219,7 +219,7 @@ header .navbar-bottom li .btn_start:hover{
     }
     header .navbar-bottom .container{
         width: 100%;
-        padding: 0px 10px 0px 0px ;
+        padding: 0px 20px 0px 0px ;
     }
     .navbar-bottom .container h2{
         width: 83%;
@@ -261,7 +261,7 @@ header .navbar-bottom li .btn_start:hover{
 .landing{
     position: relative;
     background-color: #005186;
-    background-image: url(../img/10.png);
+    background-image: url(../img/1.png);
     background-size: cover;
     height: 100vh ;
 }
