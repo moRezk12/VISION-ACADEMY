@@ -56,7 +56,6 @@ function changebg(){
     let scrollvalue = window.scrollY ;
     if(scrollvalue < 200){
 
-        // navbarbottom.classList.remove('bgcontainer');
         navbarbottom.style.background = '#00000033';
         navbartop.classList.remove('none');
         navbar.classList.remove('bgcolor');
@@ -64,9 +63,22 @@ function changebg(){
         navbar.classList.add('bgcolor');
         navbartop.classList.add('none');
         navbarbottom.style.background = '#001e33';
-        // navbarbottom.classList.add('bgcontainer');
 
     }
 }
 
 window.addEventListener('scroll' , changebg);
+
+// 
+
+// let deposit = document.querySelector('#deposit');
+// let withdraw = document.querySelector('#withdraw');
+
+// deposit.addEventListener("click" , () =>{
+//     deposit.classList.remove('none'); 
+//     withdraw.classList.add('none'); 
+// })
+// withdraw.addEventListener("click" , () =>{
+//     withdraw.classList.remove('none'); 
+//     deposit.classList.add('none'); 
+// })
