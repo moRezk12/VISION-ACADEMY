@@ -261,7 +261,7 @@ header .navbar-bottom li .btn_start:hover{
 .landing{
     position: relative;
     background-color: #005186;
-    background-image: url(../Img/1.png);
+    background-image: url(./1.png);
     background-size: cover;
     height: 100vh ;
 }
