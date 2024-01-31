@@ -383,7 +383,7 @@ header .navbar-bottom li .btn_start:hover {
     border-radius: 50%;
 }
 
-@media (max-width: 350px){
+@media (max-width: 500px){
     
     .landing .content a {
         font-size: 30px;
@@ -570,12 +570,17 @@ header .navbar-bottom li .btn_start:hover {
         justify-content: center;
     }
 }
-/* 
-@media (max-width: 330px){
+
+@media (max-width: 380px){
     .feature{
-        margin-top: 45px;
+        margin-top: 40px;
     }
-} */
+}
+@media (max-width: 310px){
+    .feature{
+        margin-top: 80px;
+    }
+}
 
 /* End Feature */
 /* ==============  Transaction ================ */
