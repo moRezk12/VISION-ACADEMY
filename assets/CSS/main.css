@@ -304,6 +304,9 @@ header .navbar-bottom li .btn_start:hover {
     .navbar-bottom .container h2 {
         font-size: 20px;
     }
+    .show-ul .btn{
+        padding-right: 0;
+    }
 }
 
 
@@ -362,6 +365,7 @@ header .navbar-bottom li .btn_start:hover {
     font-weight: 800;
     padding: 0px 0px 30px 0px;
     margin-bottom: 20px;
+    line-height: 50px;
 }
 
 .landing .content a {
@@ -397,6 +401,7 @@ header .navbar-bottom li .btn_start:hover {
     }
     .landing .text{
         top: 35%;
+        padding: 0;
     }
 }
 /* End Landing */
