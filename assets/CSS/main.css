@@ -2128,11 +2128,12 @@ footer .row h4:hover {
 
 .contact-input form .inputs input {
     width: 100%;
-    padding: 20px 0px;
+    padding: 20px 10px;
     margin: 10px 0px 30px 0px;
     background-color: #001e33;
     border-radius: 8px;
     border: 1px solid #023248;
+    color: #fff;
 }
 
 .contact-input form .inputs select {
@@ -2152,11 +2153,12 @@ footer .row h4:hover {
 .contact-input form .inputs-area textarea {
     width: 100%;
     height: 150px;
-    padding: 20px 0px;
+    padding: 20px 10px;
     margin: 10px 0px 30px 0px;
     background-color: #001e33;
     border-radius: 8px;
     border: 1px solid #023248;
+    color: #fff;
 }
 
 .contact-input form button {
@@ -2223,7 +2225,7 @@ footer .row h4:hover {
 
 }
 
-@media (max-width: 390px) {
+@media (max-width: 460px) {
     .contact .row .connection .box {
         justify-content: center;
         margin-bottom: 30px;
