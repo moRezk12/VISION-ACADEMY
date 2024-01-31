@@ -306,6 +306,7 @@ header .navbar-bottom li .btn_start:hover {
     }
 }
 
+
 .bgcolor {
     background-color: #001e33;
 }
@@ -378,6 +379,26 @@ header .navbar-bottom li .btn_start:hover {
     border-radius: 50%;
 }
 
+@media (max-width: 330px){
+    
+    .landing .content a {
+        font-size: 30px;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .landing .content .icon{
+        display: block;
+        margin: auto;
+        width: 80px;
+        height: 80px;
+    }
+    .landing .content .icon i{
+        font-size: 40px;
+    }
+    .landing .text{
+        top: 35%;
+    }
+}
 /* End Landing */
 /* Start Feature */
 .feature {
@@ -544,11 +565,11 @@ header .navbar-bottom li .btn_start:hover {
         justify-content: center;
     }
 }
-
-/* @media (max-width: 740px){
+/* 
+@media (max-width: 330px){
     .feature{
-        margin-bottom: -300px;
-     }
+        margin-top: 45px;
+    }
 } */
 
 /* End Feature */
@@ -598,7 +619,7 @@ header .navbar-bottom li .btn_start:hover {
 .transaction .section-title h2 {
     padding: 30px 0px;
     margin: 20px auto;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 800;
 }
 
@@ -659,7 +680,7 @@ thead th {
 
 th,
 td {
-    font-size: 16px;
+    font-size: 20px;
     border: 1px solid gray;
     text-align: center;
     padding: 20px;
@@ -839,10 +860,20 @@ td {
         display: block;
     }
 }
+@media (max-width: 431px){
+    td{
+        font-size: 13px;
+    }
+    .transaction-btn .deposit{
+        margin-bottom: 15px;
+    }
+}
 
 
 
 /* End transaction */
+
+/* Start Blog */
 .blog {
     padding: 50px 0px;
 }
@@ -1554,7 +1585,7 @@ td {
     .about-section .about-content .button .btn {
         font-size: 30px;
         margin-bottom: 40px;
-    display: block;
+        display: block;
     }
     .about-section .about-content .button .btn i{
         width: 40px;
