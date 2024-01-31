@@ -379,7 +379,7 @@ header .navbar-bottom li .btn_start:hover {
     border-radius: 50%;
 }
 
-@media (max-width: 330px){
+@media (max-width: 350px){
     
     .landing .content a {
         font-size: 30px;
