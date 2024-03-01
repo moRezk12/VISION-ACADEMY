@@ -22,14 +22,19 @@
 
 <body>
 
+
+
+
     <!-- Start Header -->
     <header>
         <div class="navbar-top">
             <div class="container">
                 <div class="icon">
                     <a href="https://t.me/VISIONACADEMY01"><i class="fa-brands fa-telegram"></i></a>
-                    <a href="https://www.facebook.com/profile.php?id=61552610639161&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/vision_trade1?igsh=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61552610639161&mibextid=ZbWKwL"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/vision_trade1?igsh=OGQ5ZDc2ODk2ZA=="><i
+                            class="fa-brands fa-instagram"></i></a>
                     <select class="usd">
                         <option value="" class="active">USD</option>
                         <option value="">BDT</option>
@@ -60,16 +65,95 @@
                     <i class="fa-solid fa-bars" id="open"></i>
                     <i class="fa-regular fa-circle-xmark" id="close"></i>
                     <ul class="show-menu">
-                        <li><a class="nav-link active" href="">Home</a></li>
+                        <li><a class="nav-link active" href="./index.html">Home</a></li>
                         <li><a class="nav-link" href="./about.html">About </a></li>
                         <li><a class="nav-link" href="./services.html">Services </a></li>
-                        <li><a class="nav-link" href="./blog.html"> Blog</a></li>
+                        <li><a class="nav-link" href="./blog.html"> Courses</a></li>
                         <li><a class="nav-link" href="./faq.html"> FAQ</a></li>
                         <li><a class="nav-link" href="./contact.html"> Contact</a></li>
-                        <li><a class="btn_start" href="#">Get Started</a></li>
+                        <button class="login" id="login-btn">Login</button>
+                        <!-- <li><a class="btn_start" href="#">Get Started</a></li> -->
                     </ul>
                 </nav>
             </div>
+        </div>
+        <!-- Login -->
+        <div class="container-login">
+
+            <div class="sign-in">
+                <i class="fa-solid fa-circle-xmark icon-close"></i>
+                <div class="images">
+                    <img src="./assets/Img/1_20240204_200240_0000.svg" alt="">
+                    <img src="./assets/Img/2_20240204_200240_0001.svg" alt="">
+                </div>
+                <h2>Sign In</h2>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"></i><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-regular fa-eye hidepass"></i></span>
+                    <span class="icon"><i class="fa-regular fa-eye-slash showpass"></i></span>
+                    <input type="password" class="password" placeholder="Password" required>
+                </div>
+                <div class="remember-forgot">
+                    <label for=""><input type="checkbox">Remember Me</label>
+                    <a href="#">Forget Password?</a>
+                </div>
+
+                <div class="btn-login">
+                    <a href="./index.html"><button>SIGN IN</button></a>
+                </div>
+
+                <p>Dont have an account ? <button id="register-link">Register</button> </p>
+            </div>
+
+            <div class="sign-up">
+                <i class="fa-solid fa-circle-xmark icon-close"></i>
+                <div class="images">
+                    <img src="./assets/Img/1_20240204_200240_0000.svg" alt="">
+                    <img src="./assets/Img/2_20240204_200240_0001.svg" alt="">
+                </div>
+                <h2>Create Account</h2>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"></i><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-hashtag"></i></span>
+                    <input type="text" placeholder="National ID" required>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-user"></i></span>
+                    <input type="text" placeholder="UserName" required>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-regular fa-eye hidepass"></i></span>
+                    <span class="icon"><i class="fa-regular fa-eye-slash showpass"></i></span>
+                    <input type="password" class="password" placeholder="Password" required>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-regular fa-eye confhidepass"></i></span>
+                    <span class="icon"><i class="fa-regular fa-eye-slash confshowpass"></i></span>
+                    <input type="password" class="confpassword" placeholder="Password" required>
+                </div>
+
+                <div class="btn-login">
+                    <button>SIGN UP</button>
+                </div>
+
+            </div>
+
         </div>
         <div class="show-ul">
             <i class="fa-regular fa-circle-xmark" id="closes"></i>
@@ -80,6 +164,8 @@
                 <li><a class="nav-link" href="./blog.html"> Blog</a></li>
                 <li><a class="nav-link" href="./faq.html"> FAQ</a></li>
                 <li><a class="nav-link" href="./contact.html"> Contact</a></li>
+                <button class="login" id="login-btn">Login</button>
+                <hr>
                 <li class="btn"><a class="btn_start" href="#">Get Started</a></li>
             </ul>
         </div>
@@ -170,15 +256,15 @@
                 <h2>Our Latest Transactions</h2>
             </div>
 
-            <div class="table1">
+            <div class="table1" id="tableOne">
 
                 <div class="transaction-btn">
                     <button class="deposit" id="deposit-btn" href="#">Deposit</button>
                     <button class="withdraw" id="withdraw-btn" href="#">Withdraw</button>
                 </div>
-    
+
                 <div class="table-content">
-                    <div class="table-show active deposit deposit1" id="deposit">
+                    <div class="table-show active deposit deposit1" id="depositOne">
                         <table>
                             <thead>
                                 <tr>
@@ -201,7 +287,7 @@
                                         <span class="pending">Pending</span>
                                     </td>
                                 </tr>
-    
+
                                 <tr>
                                     <td>Jan 11, 2024</td>
                                     <td>STNALNKAMW9S</td>
@@ -212,7 +298,7 @@
                                         <span class="pending">Pending</span>
                                     </td>
                                 </tr>
-    
+
                                 <tr>
                                     <td>Jan 11, 2024</td>
                                     <td>STNALNKAMW9S</td>
@@ -223,7 +309,7 @@
                                         <span class="pending">Pending</span>
                                     </td>
                                 </tr>
-    
+
                                 <tr>
                                     <td>Jan 11, 2024</td>
                                     <td>STNALNKAMW9S</td>
@@ -234,7 +320,7 @@
                                         <span class="pending">Pending</span>
                                     </td>
                                 </tr>
-    
+
                                 <tr>
                                     <td>Jan 11, 2024</td>
                                     <td>STNALNKAMW9S</td>
@@ -245,12 +331,12 @@
                                         <span class="pending">Pending</span>
                                     </td>
                                 </tr>
-    
+
                             </tbody>
                         </table>
                     </div>
-    
-                    <div class="table-show hide withdraw withdraw1" id="withdraw">
+
+                    <div class="table-show hide withdraw withdraw1" id="withdrawOne">
                         <table>
                             <thead>
                                 <tr>
@@ -275,7 +361,7 @@
                                         <span class="pending">Pending</span>
                                     </td>
                                 </tr>
-    
+
                                 <tr>
                                     <td>Jan 11, 2024</td>
                                     <td>STNALNKAMW9S</td>
@@ -287,7 +373,7 @@
                                         <span class="pending">Pending</span>
                                     </td>
                                 </tr>
-    
+
                                 <tr>
                                     <td>Jan 11, 2024</td>
                                     <td>STNALNKAMW9S</td>
@@ -299,7 +385,7 @@
                                         <span class="pending">Pending</span>
                                     </td>
                                 </tr>
-    
+
                                 <tr>
                                     <td>Jan 11, 2024</td>
                                     <td>STNALNKAMW9S</td>
@@ -311,7 +397,7 @@
                                         <span class="pending">Pending</span>
                                     </td>
                                 </tr>
-    
+
                                 <tr>
                                     <td>Jan 11, 2024</td>
                                     <td>STNALNKAMW9S</td>
@@ -323,22 +409,22 @@
                                         <span class="pending">Pending</span>
                                     </td>
                                 </tr>
-    
+
                             </tbody>
                         </table>
                     </div>
-    
+
                 </div>
             </div>
 
-            <div class="table2">
+            <div class="table2" id="tableTwo">
 
                 <div class="transaction-btn">
                     <button class="deposit" id="deposit-btn2" href="#">Deposit</button>
                     <button class="withdraw" id="withdraw-btn2" href="#">Withdraw</button>
                 </div>
-    
-                <div class="table-tablet-deposit" id="deposit2">
+
+                <div class="table-tablet-deposit depositTwo" id="deposit2">
                     <table>
                         <tbody>
                             <tr>
@@ -394,8 +480,8 @@
                         </tbody>
                     </table>
                 </div>
-    
-                <div class="table-tablet-withdraw" id="withdraw2">
+
+                <div class="table-tablet-withdraw withdrawTwo" id="withdraw2">
                     <table>
                         <tbody>
                             <tr>
@@ -485,7 +571,7 @@
                             <i class="fas fa-brain"></i>
                         </div>
                         <div class="text">
-                            <span>50%</span>
+                            <span class="number" data-goal="50">0</span>
                             <h5>Years Experince</h5>
                         </div>
                     </div>
@@ -494,7 +580,7 @@
                             <i class="fas fa-users"></i>
                         </div>
                         <div class="text">
-                            <span>560+</span>
+                            <span class="number" data-goal="560">0</span>
                             <h5>Worlds Traders</h5>
                         </div>
                     </div>
@@ -503,7 +589,7 @@
                             <i class="fab fa-r-project"></i>
                         </div>
                         <div class="text">
-                            <span>2,400+</span>
+                            <span class="number" data-goal="800">0</span>
                             <h5>Trade Plan</h5>
                         </div>
                     </div>
@@ -512,7 +598,7 @@
                             <i class="fas fa-user-friends"></i>
                         </div>
                         <div class="text">
-                            <span>60</span>
+                            <span class="number" data-goal="60">0</span>
                             <h5>Team Member</h5>
                         </div>
                     </div>
@@ -524,8 +610,8 @@
     <!-- End Counter -->
 
     <!-- Start Accordion -->
-    
-    <!-- <section class="section-accordion">
+
+    <section class="section-accordion">
         <div class="container">
             <div class="row">
                 <div class="accordion">
@@ -535,8 +621,8 @@
                             <span class="title">What do you mean by Accordion?</span>
                             <i class="fa-solid fa-plus"></i>
                         </div>
-                        
-                        <p class="description" style="height: 90px;">
+
+                        <p class="description">
                             This system return a good number of methods for both withdraw and deposit.
                         </p>
                     </div>
@@ -546,7 +632,9 @@
                             <i class="fa-solid fa-plus"></i>
                         </div>
                         <p class="description">
-                            This system is mainly featured for trading, users can practice by practice trade, then they can able to make real time trade, also money transferring, deposit and withdrawal system pretty standard.
+                            This system is mainly featured for trading, users can practice by practice trade, then they
+                            can able to make real time trade, also money transferring, deposit and withdrawal system
+                            pretty standard.
                         </p>
                     </div>
                     <div class="accordion-content">
@@ -555,7 +643,15 @@
                             <i class="fa-solid fa-plus"></i>
                         </div>
                         <p class="description">
-                            Admin can maintain website content without any hassle from home page manage. Menu builder, Multi level referral, kyc, dynamic fonts, automated currency rate update are attractive features of this script. There is a option for practise trade in case new user to get idea, how sytem works. This is about trade. So there is three possible option one user can get win, lose, draw. Its about predict crypto currency rate. There are two options for predict one is high and other one is low. If user predict crypto currency rate will high within particular time that time user will win. If currency rate low user will lose. Between two stage of win and lose will be the draw. Traders also can earn by referral system too. Admin can set referral percentage from admin panel
+                            Admin can maintain website content without any hassle from home page manage. Menu builder,
+                            Multi level referral, kyc, dynamic fonts, automated currency rate update are attractive
+                            features of this script. There is a option for practise trade in case new user to get idea,
+                            how sytem works. This is about trade. So there is three possible option one user can get
+                            win, lose, draw. Its about predict crypto currency rate. There are two options for predict
+                            one is high and other one is low. If user predict crypto currency rate will high within
+                            particular time that time user will win. If currency rate low user will lose. Between two
+                            stage of win and lose will be the draw. Traders also can earn by referral system too. Admin
+                            can set referral percentage from admin panel
                         </p>
                     </div>
                     <div class="accordion-content">
@@ -564,20 +660,26 @@
                             <i class="fa-solid fa-plus"></i>
                         </div>
                         <p class="description">
-                            For making a trade users have to be registered, if not then there is an option for get registering, after that and all the verification users will get a login form, putting valid information user will get the dashboard. For the trade, users will get a good number of trade methods, and it's a user-friendly and easy interface to make trade .
+                            For making a trade users have to be registered, if not then there is an option for get
+                            registering, after that and all the verification users will get a login form, putting valid
+                            information user will get the dashboard. For the trade, users will get a good number of
+                            trade methods, and it's a user-friendly and easy interface to make trade .
                         </p>
                     </div>
                 </div>
-    
+
                 <div class="accordion">
                     <div class="accordion-content open ">
                         <div class="accordion-head">
                             <span class="title">What do you mean by Accordion?</span>
                             <i class="fa-solid fa-plus"></i>
                         </div>
-                        
-                        <p class="description" style="height: 300px;">
-                            For making a withdraw users have to be registered, if not then there is an option for get registering, after that and all the verification users will get a login form, putting valid information user will get the dashboard. For the withdraw , users will get a good number of withdrawal methods, and it's a user-friendly and easy interface to make payout.
+
+                        <p class="description">
+                            For making a withdraw users have to be registered, if not then there is an option for get
+                            registering, after that and all the verification users will get a login form, putting valid
+                            information user will get the dashboard. For the withdraw , users will get a good number of
+                            withdrawal methods, and it's a user-friendly and easy interface to make payout.
                         </p>
                     </div>
                     <div class="accordion-content">
@@ -586,14 +688,17 @@
                             <i class="fa-solid fa-plus"></i>
                         </div>
                         <p class="description">
-                            For making a deposit users have to be registered, if not then there is an option for get registering, after that and all the verification users will get a login form, putting valid information user will get the dashboard. For the deposit, users will get a good number of payment methods, and it's a user-friendly and easy interface to make deposits.
+                            For making a deposit users have to be registered, if not then there is an option for get
+                            registering, after that and all the verification users will get a login form, putting valid
+                            information user will get the dashboard. For the deposit, users will get a good number of
+                            payment methods, and it's a user-friendly and easy interface to make deposits.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-    </section> -->
-    
+    </section>
+
     <!-- End Accordion -->
 
     <!-- Start Blog -->
@@ -770,7 +875,7 @@
             <div class="footer-bottom position-relative pb-5">
                 <div class="container text-center">
                     <p>
-                        COPYRIGHT © 2022. All Rights Reserved By <a href="#">Mohamed Rezk</a>
+                        COPYRIGHT © 2022. All Rights Reserved By <a href="#">VISION ACADEMY</a>
                     </p>
                     <div class="row justify-content-center">
                         <div class="col-xxl-8 col-xl-9">
